@@ -1,11 +1,9 @@
 <?php
 //features/boostrap/FeaturesContext.php
 
-require ("PHPadder.php");
-
 use Behat\Behat\Context\BehatContext, Behat\Behat\Exception\PendingException;
-
 use Behat\Gherkin\Node\PuStringNode, Behat\Gherking\Node\TableNode;
+use math\PHPadder as PHPadder;
 
 class FeatureContext extends BehatContext
 {
